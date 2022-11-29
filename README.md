@@ -1,6 +1,7 @@
 Code from https://github.com/thuml/Autoformer.
 
 **TODO**
+
 0. Download and unzip the dataset into dataset folder.
 1. Change the bash script allocating GPU/CPU if necessary. (CUDA_VISIBLE_DEVICES, prefix)
 
