@@ -1,0 +1,200 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AttentionLayer	layers/SelfAttention_Family.py	/^class AttentionLayer(nn.Module):$/;"	c
+AutoCorrelation	layers/AutoCorrelation.py	/^class AutoCorrelation(nn.Module):$/;"	c
+AutoCorrelationLayer	layers/AutoCorrelation.py	/^class AutoCorrelationLayer(nn.Module):$/;"	c
+CORR	utils/metrics.py	/^def CORR(pred, true):$/;"	f
+ConvLayer	layers/Transformer_EncDec.py	/^class ConvLayer(nn.Module):$/;"	c
+DOCKER_PARAMETERS	Makefile	/^DOCKER_PARAMETERS := \\$/;"	m
+DataEmbedding	layers/Embed.py	/^class DataEmbedding(nn.Module):$/;"	c
+DataEmbedding_wo_pos	layers/Embed.py	/^class DataEmbedding_wo_pos(nn.Module):$/;"	c
+Dataset_Custom	data_provider/data_loader.py	/^class Dataset_Custom(Dataset):$/;"	c
+Dataset_ETT_hour	data_provider/data_loader.py	/^class Dataset_ETT_hour(Dataset):$/;"	c
+Dataset_ETT_minute	data_provider/data_loader.py	/^class Dataset_ETT_minute(Dataset):$/;"	c
+Dataset_Pred	data_provider/data_loader.py	/^class Dataset_Pred(Dataset):$/;"	c
+DayOfMonth	utils/timefeatures.py	/^class DayOfMonth(TimeFeature):$/;"	c
+DayOfWeek	utils/timefeatures.py	/^class DayOfWeek(TimeFeature):$/;"	c
+DayOfYear	utils/timefeatures.py	/^class DayOfYear(TimeFeature):$/;"	c
+Decoder	layers/Autoformer_EncDec.py	/^class Decoder(nn.Module):$/;"	c
+Decoder	layers/Transformer_EncDec.py	/^class Decoder(nn.Module):$/;"	c
+DecoderLayer	layers/Autoformer_EncDec.py	/^class DecoderLayer(nn.Module):$/;"	c
+DecoderLayer	layers/Transformer_EncDec.py	/^class DecoderLayer(nn.Module):$/;"	c
+EarlyStopping	utils/tools.py	/^class EarlyStopping:$/;"	c
+Encoder	layers/Autoformer_EncDec.py	/^class Encoder(nn.Module):$/;"	c
+Encoder	layers/Transformer_EncDec.py	/^class Encoder(nn.Module):$/;"	c
+EncoderLayer	layers/Autoformer_EncDec.py	/^class EncoderLayer(nn.Module):$/;"	c
+EncoderLayer	layers/Transformer_EncDec.py	/^class EncoderLayer(nn.Module):$/;"	c
+Exp_Basic	exp/exp_basic.py	/^class Exp_Basic(object):$/;"	c
+Exp_Main	exp/exp_main.py	/^class Exp_Main(Exp_Basic):$/;"	c
+FixedEmbedding	layers/Embed.py	/^class FixedEmbedding(nn.Module):$/;"	c
+FullAttention	layers/SelfAttention_Family.py	/^class FullAttention(nn.Module):$/;"	c
+HourOfDay	utils/timefeatures.py	/^class HourOfDay(TimeFeature):$/;"	c
+IMAGE	Makefile	/^IMAGE := autoformer$/;"	m
+MAE	utils/metrics.py	/^def MAE(pred, true):$/;"	f
+MAPE	utils/metrics.py	/^def MAPE(pred, true):$/;"	f
+MSE	utils/metrics.py	/^def MSE(pred, true):$/;"	f
+MSPE	utils/metrics.py	/^def MSPE(pred, true):$/;"	f
+MinuteOfHour	utils/timefeatures.py	/^class MinuteOfHour(TimeFeature):$/;"	c
+Model	models/Autoformer.py	/^class Model(nn.Module):$/;"	c
+Model	models/Informer.py	/^class Model(nn.Module):$/;"	c
+Model	models/Reformer.py	/^class Model(nn.Module):$/;"	c
+Model	models/Transformer.py	/^class Model(nn.Module):$/;"	c
+MonthOfYear	utils/timefeatures.py	/^class MonthOfYear(TimeFeature):$/;"	c
+PositionalEmbedding	layers/Embed.py	/^class PositionalEmbedding(nn.Module):$/;"	c
+ProbAttention	layers/SelfAttention_Family.py	/^class ProbAttention(nn.Module):$/;"	c
+ProbMask	utils/masking.py	/^class ProbMask():$/;"	c
+RMSE	utils/metrics.py	/^def RMSE(pred, true):$/;"	f
+ROOT	Makefile	/^ROOT := $(shell dirname $(realpath $(firstword ${MAKEFILE_LIST})))$/;"	m
+RSE	utils/metrics.py	/^def RSE(pred, true):$/;"	f
+ReformerLayer	layers/SelfAttention_Family.py	/^class ReformerLayer(nn.Module):$/;"	c
+SecondOfMinute	utils/timefeatures.py	/^class SecondOfMinute(TimeFeature):$/;"	c
+StandardScaler	utils/tools.py	/^class StandardScaler():$/;"	c
+TemporalEmbedding	layers/Embed.py	/^class TemporalEmbedding(nn.Module):$/;"	c
+TimeFeature	utils/timefeatures.py	/^class TimeFeature:$/;"	c
+TimeFeatureEmbedding	layers/Embed.py	/^class TimeFeatureEmbedding(nn.Module):$/;"	c
+TokenEmbedding	layers/Embed.py	/^class TokenEmbedding(nn.Module):$/;"	c
+TriangularCausalMask	utils/masking.py	/^class TriangularCausalMask():$/;"	c
+WeekOfYear	utils/timefeatures.py	/^class WeekOfYear(TimeFeature):$/;"	c
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:DayOfMonth	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:DayOfWeek	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:DayOfYear	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:HourOfDay	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:MinuteOfHour	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:MonthOfYear	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:SecondOfMinute	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:TimeFeature	file:
+__call__	utils/timefeatures.py	/^    def __call__(self, index: pd.DatetimeIndex) -> np.ndarray:$/;"	m	class:WeekOfYear	file:
+__call__	utils/tools.py	/^    def __call__(self, val_loss, model, path):$/;"	m	class:EarlyStopping	file:
+__delattr__	utils/tools.py	/^    __delattr__ = dict.__delitem__$/;"	v	class:dotdict
+__getattr__	utils/tools.py	/^    __getattr__ = dict.get$/;"	v	class:dotdict
+__getitem__	data_provider/data_loader.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset_Custom	file:
+__getitem__	data_provider/data_loader.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset_ETT_hour	file:
+__getitem__	data_provider/data_loader.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset_ETT_minute	file:
+__getitem__	data_provider/data_loader.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset_Pred	file:
+__init__	data_provider/data_loader.py	/^    def __init__(self, root_path, flag='pred', size=None,$/;"	m	class:Dataset_Pred
+__init__	data_provider/data_loader.py	/^    def __init__(self, root_path, flag='train', size=None,$/;"	m	class:Dataset_Custom
+__init__	data_provider/data_loader.py	/^    def __init__(self, root_path, flag='train', size=None,$/;"	m	class:Dataset_ETT_hour
+__init__	data_provider/data_loader.py	/^    def __init__(self, root_path, flag='train', size=None,$/;"	m	class:Dataset_ETT_minute
+__init__	exp/exp_basic.py	/^    def __init__(self, args):$/;"	m	class:Exp_Basic
+__init__	exp/exp_main.py	/^    def __init__(self, args):$/;"	m	class:Exp_Main
+__init__	layers/AutoCorrelation.py	/^    def __init__(self, correlation, d_model, n_heads, d_keys=None,$/;"	m	class:AutoCorrelationLayer
+__init__	layers/AutoCorrelation.py	/^    def __init__(self, mask_flag=True, factor=1, scale=None, attention_dropout=0.1, output_attention=False):$/;"	m	class:AutoCorrelation
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, attention, d_model, d_ff=None, moving_avg=25, dropout=0.1, activation="relu"):$/;"	m	class:EncoderLayer
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, attn_layers, conv_layers=None, norm_layer=None):$/;"	m	class:Encoder
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, channels):$/;"	m	class:my_Layernorm
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, kernel_size):$/;"	m	class:series_decomp
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, kernel_size, stride):$/;"	m	class:moving_avg
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, layers, norm_layer=None, projection=None):$/;"	m	class:Decoder
+__init__	layers/Autoformer_EncDec.py	/^    def __init__(self, self_attention, cross_attention, d_model, c_out, d_ff=None,$/;"	m	class:DecoderLayer
+__init__	layers/Embed.py	/^    def __init__(self, c_in, d_model):$/;"	m	class:FixedEmbedding
+__init__	layers/Embed.py	/^    def __init__(self, c_in, d_model):$/;"	m	class:TokenEmbedding
+__init__	layers/Embed.py	/^    def __init__(self, c_in, d_model, embed_type='fixed', freq='h', dropout=0.1):$/;"	m	class:DataEmbedding
+__init__	layers/Embed.py	/^    def __init__(self, c_in, d_model, embed_type='fixed', freq='h', dropout=0.1):$/;"	m	class:DataEmbedding_wo_pos
+__init__	layers/Embed.py	/^    def __init__(self, d_model, embed_type='fixed', freq='h'):$/;"	m	class:TemporalEmbedding
+__init__	layers/Embed.py	/^    def __init__(self, d_model, embed_type='timeF', freq='h'):$/;"	m	class:TimeFeatureEmbedding
+__init__	layers/Embed.py	/^    def __init__(self, d_model, max_len=5000):$/;"	m	class:PositionalEmbedding
+__init__	layers/SelfAttention_Family.py	/^    def __init__(self, attention, d_model, n_heads, d_keys=None,$/;"	m	class:AttentionLayer
+__init__	layers/SelfAttention_Family.py	/^    def __init__(self, attention, d_model, n_heads, d_keys=None,$/;"	m	class:ReformerLayer
+__init__	layers/SelfAttention_Family.py	/^    def __init__(self, mask_flag=True, factor=5, scale=None, attention_dropout=0.1, output_attention=False):$/;"	m	class:FullAttention
+__init__	layers/SelfAttention_Family.py	/^    def __init__(self, mask_flag=True, factor=5, scale=None, attention_dropout=0.1, output_attention=False):$/;"	m	class:ProbAttention
+__init__	layers/Transformer_EncDec.py	/^    def __init__(self, attention, d_model, d_ff=None, dropout=0.1, activation="relu"):$/;"	m	class:EncoderLayer
+__init__	layers/Transformer_EncDec.py	/^    def __init__(self, attn_layers, conv_layers=None, norm_layer=None):$/;"	m	class:Encoder
+__init__	layers/Transformer_EncDec.py	/^    def __init__(self, c_in):$/;"	m	class:ConvLayer
+__init__	layers/Transformer_EncDec.py	/^    def __init__(self, layers, norm_layer=None, projection=None):$/;"	m	class:Decoder
+__init__	layers/Transformer_EncDec.py	/^    def __init__(self, self_attention, cross_attention, d_model, d_ff=None,$/;"	m	class:DecoderLayer
+__init__	models/Autoformer.py	/^    def __init__(self, configs):$/;"	m	class:Model
+__init__	models/Informer.py	/^    def __init__(self, configs):$/;"	m	class:Model
+__init__	models/Reformer.py	/^    def __init__(self, configs):$/;"	m	class:Model
+__init__	models/Transformer.py	/^    def __init__(self, configs):$/;"	m	class:Model
+__init__	utils/masking.py	/^    def __init__(self, B, H, L, index, scores, device="cpu"):$/;"	m	class:ProbMask
+__init__	utils/masking.py	/^    def __init__(self, B, L, device="cpu"):$/;"	m	class:TriangularCausalMask
+__init__	utils/timefeatures.py	/^    def __init__(self):$/;"	m	class:TimeFeature
+__init__	utils/tools.py	/^    def __init__(self, mean, std):$/;"	m	class:StandardScaler
+__init__	utils/tools.py	/^    def __init__(self, patience=7, verbose=False, delta=0):$/;"	m	class:EarlyStopping
+__len__	data_provider/data_loader.py	/^    def __len__(self):$/;"	m	class:Dataset_Custom	file:
+__len__	data_provider/data_loader.py	/^    def __len__(self):$/;"	m	class:Dataset_ETT_hour	file:
+__len__	data_provider/data_loader.py	/^    def __len__(self):$/;"	m	class:Dataset_ETT_minute	file:
+__len__	data_provider/data_loader.py	/^    def __len__(self):$/;"	m	class:Dataset_Pred	file:
+__read_data__	data_provider/data_loader.py	/^    def __read_data__(self):$/;"	m	class:Dataset_Custom	file:
+__read_data__	data_provider/data_loader.py	/^    def __read_data__(self):$/;"	m	class:Dataset_ETT_hour	file:
+__read_data__	data_provider/data_loader.py	/^    def __read_data__(self):$/;"	m	class:Dataset_ETT_minute	file:
+__read_data__	data_provider/data_loader.py	/^    def __read_data__(self):$/;"	m	class:Dataset_Pred	file:
+__repr__	utils/timefeatures.py	/^    def __repr__(self):$/;"	m	class:TimeFeature	file:
+__setattr__	utils/tools.py	/^    __setattr__ = dict.__setitem__$/;"	v	class:dotdict
+_acquire_device	exp/exp_basic.py	/^    def _acquire_device(self):$/;"	m	class:Exp_Basic
+_build_model	exp/exp_basic.py	/^    def _build_model(self):$/;"	m	class:Exp_Basic
+_build_model	exp/exp_main.py	/^    def _build_model(self):$/;"	m	class:Exp_Main
+_get_data	exp/exp_basic.py	/^    def _get_data(self):$/;"	m	class:Exp_Basic
+_get_data	exp/exp_main.py	/^    def _get_data(self, flag):$/;"	m	class:Exp_Main
+_get_initial_context	layers/SelfAttention_Family.py	/^    def _get_initial_context(self, V, L_Q):$/;"	m	class:ProbAttention
+_prob_QK	layers/SelfAttention_Family.py	/^    def _prob_QK(self, Q, K, sample_k, n_top):  # n_top: c*ln(L_q)$/;"	m	class:ProbAttention
+_select_criterion	exp/exp_main.py	/^    def _select_criterion(self):$/;"	m	class:Exp_Main
+_select_optimizer	exp/exp_main.py	/^    def _select_optimizer(self):$/;"	m	class:Exp_Main
+_update_context	layers/SelfAttention_Family.py	/^    def _update_context(self, context_in, V, scores, index, L_Q, attn_mask):$/;"	m	class:ProbAttention
+adjust_learning_rate	utils/tools.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
+data_dict	data_provider/data_factory.py	/^data_dict = {$/;"	v
+data_provider	data_provider/data_factory.py	/^def data_provider(args, flag):$/;"	f
+dotdict	utils/tools.py	/^class dotdict(dict):$/;"	c
+fit_length	layers/SelfAttention_Family.py	/^    def fit_length(self, queries):$/;"	m	class:ReformerLayer
+forward	layers/AutoCorrelation.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:AutoCorrelation
+forward	layers/AutoCorrelation.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:AutoCorrelationLayer
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x):$/;"	m	class:moving_avg
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x):$/;"	m	class:my_Layernorm
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x):$/;"	m	class:series_decomp
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x, attn_mask=None):$/;"	m	class:Encoder
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x, attn_mask=None):$/;"	m	class:EncoderLayer
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x, cross, x_mask=None, cross_mask=None):$/;"	m	class:DecoderLayer
+forward	layers/Autoformer_EncDec.py	/^    def forward(self, x, cross, x_mask=None, cross_mask=None, trend=None):$/;"	m	class:Decoder
+forward	layers/Embed.py	/^    def forward(self, x):$/;"	m	class:FixedEmbedding
+forward	layers/Embed.py	/^    def forward(self, x):$/;"	m	class:PositionalEmbedding
+forward	layers/Embed.py	/^    def forward(self, x):$/;"	m	class:TemporalEmbedding
+forward	layers/Embed.py	/^    def forward(self, x):$/;"	m	class:TimeFeatureEmbedding
+forward	layers/Embed.py	/^    def forward(self, x):$/;"	m	class:TokenEmbedding
+forward	layers/Embed.py	/^    def forward(self, x, x_mark):$/;"	m	class:DataEmbedding
+forward	layers/Embed.py	/^    def forward(self, x, x_mark):$/;"	m	class:DataEmbedding_wo_pos
+forward	layers/SelfAttention_Family.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:AttentionLayer
+forward	layers/SelfAttention_Family.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:FullAttention
+forward	layers/SelfAttention_Family.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:ProbAttention
+forward	layers/SelfAttention_Family.py	/^    def forward(self, queries, keys, values, attn_mask):$/;"	m	class:ReformerLayer
+forward	layers/Transformer_EncDec.py	/^    def forward(self, x):$/;"	m	class:ConvLayer
+forward	layers/Transformer_EncDec.py	/^    def forward(self, x, attn_mask=None):$/;"	m	class:Encoder
+forward	layers/Transformer_EncDec.py	/^    def forward(self, x, attn_mask=None):$/;"	m	class:EncoderLayer
+forward	layers/Transformer_EncDec.py	/^    def forward(self, x, cross, x_mask=None, cross_mask=None):$/;"	m	class:Decoder
+forward	layers/Transformer_EncDec.py	/^    def forward(self, x, cross, x_mask=None, cross_mask=None):$/;"	m	class:DecoderLayer
+forward	models/Autoformer.py	/^    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec,$/;"	m	class:Model
+forward	models/Informer.py	/^    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec,$/;"	m	class:Model
+forward	models/Reformer.py	/^    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec,$/;"	m	class:Model
+forward	models/Transformer.py	/^    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec,$/;"	m	class:Model
+headers	utils/download_data.py	/^    headers = {'User-Agent': 'Mozilla\/5.0'}$/;"	v
+inverse_transform	data_provider/data_loader.py	/^    def inverse_transform(self, data):$/;"	m	class:Dataset_Custom
+inverse_transform	data_provider/data_loader.py	/^    def inverse_transform(self, data):$/;"	m	class:Dataset_ETT_hour
+inverse_transform	data_provider/data_loader.py	/^    def inverse_transform(self, data):$/;"	m	class:Dataset_ETT_minute
+inverse_transform	data_provider/data_loader.py	/^    def inverse_transform(self, data):$/;"	m	class:Dataset_Pred
+inverse_transform	utils/tools.py	/^    def inverse_transform(self, data):$/;"	m	class:StandardScaler
+main	run.py	/^def main():$/;"	f
+mask	utils/masking.py	/^    def mask(self):$/;"	m	class:ProbMask
+mask	utils/masking.py	/^    def mask(self):$/;"	m	class:TriangularCausalMask
+metric	utils/metrics.py	/^def metric(pred, true):$/;"	f
+moving_avg	layers/Autoformer_EncDec.py	/^class moving_avg(nn.Module):$/;"	c
+my_Layernorm	layers/Autoformer_EncDec.py	/^class my_Layernorm(nn.Module):$/;"	c
+predict	exp/exp_main.py	/^    def predict(self, setting, load=False):$/;"	m	class:Exp_Main
+res	utils/download_data.py	/^    res = requests.get(source_url, headers=headers)$/;"	v
+save_checkpoint	utils/tools.py	/^    def save_checkpoint(self, val_loss, model, path):$/;"	m	class:EarlyStopping
+series_decomp	layers/Autoformer_EncDec.py	/^class series_decomp(nn.Module):$/;"	c
+test	exp/exp_basic.py	/^    def test(self):$/;"	m	class:Exp_Basic
+test	exp/exp_main.py	/^    def test(self, setting, test=0):$/;"	m	class:Exp_Main
+time_delay_agg_full	layers/AutoCorrelation.py	/^    def time_delay_agg_full(self, values, corr):$/;"	m	class:AutoCorrelation
+time_delay_agg_inference	layers/AutoCorrelation.py	/^    def time_delay_agg_inference(self, values, corr):$/;"	m	class:AutoCorrelation
+time_delay_agg_training	layers/AutoCorrelation.py	/^    def time_delay_agg_training(self, values, corr):$/;"	m	class:AutoCorrelation
+time_features	utils/timefeatures.py	/^def time_features(dates, freq='h'):$/;"	f
+time_features_from_frequency_str	utils/timefeatures.py	/^def time_features_from_frequency_str(freq_str: str) -> List[TimeFeature]:$/;"	f
+train	exp/exp_basic.py	/^    def train(self):$/;"	m	class:Exp_Basic
+train	exp/exp_main.py	/^    def train(self, setting):$/;"	m	class:Exp_Main
+transform	utils/tools.py	/^    def transform(self, data):$/;"	m	class:StandardScaler
+vali	exp/exp_basic.py	/^    def vali(self):$/;"	m	class:Exp_Basic
+vali	exp/exp_main.py	/^    def vali(self, vali_data, vali_loader, criterion):$/;"	m	class:Exp_Main
+visual	utils/tools.py	/^def visual(true, preds=None, name='.\/pic\/test.pdf'):$/;"	f
